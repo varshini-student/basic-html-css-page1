@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+
+}
+.superparent{
+    border: solid;
+    /* height: 100vh; */
+}
+.header{
+    border: solid black;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: large;
+    padding: 0px 20px;
+    background-color: bisque;
+    position: sticky;
+    top: 0px;
+    margin: 0px;
+}
+.header nav a{
+    padding-right: 20px;
+    padding-left: 20px;
+    text-decoration: none;
+    color: black;
+    /* border-right: solid; */
+}
+.header nav a:hover{
+    color: greenyellow;
+    background-color: white;
+    border-radius:50px;
+}
+section .header p img{
+    height: 50px;
+    width: 60PX;
+
+}
+.parenthero{
+    display: flex;
+    border: solid black;
+    height: 89vh;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+}
+.leftpart{
+    border: solid black;
+    height: 50%;
+}
+.leftpart h1 {
+    font-size: 50px;
+    padding: 30px 50px 10px 20px;
+    color: chocolate;
+    text-shadow: 2px 2px navy;
+    
+}
+.leftpart p{
+    font-size: 16px;
+    padding: 1px 0px 0px 20px;
+    color:red;
+}
+.rightpart{
+    border: solid black;
+    height: 50%;
+    background-image: url("../sddefault.jpg");
+    width: 400px;
+    background-size: cover;
+}   
+main{
+    height: 100vh;
+    border: solid floralwhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.base{
+    /* border: solid blue; */
+    height: 50%;
+    width: 50%;
+    background-color:black;
+    border-radius: 20px;
+}
+.picture{
+    /* border: solid green; */
+    height: 40%;
+    width: 40%;
+    background-image: url(../676ecb6b2285efc0fd531383c8567a26.jpg);
+    position: absolute;
+}
+.icon{
+    border: dashed blue;
+    border-radius: 100%;
+    height: 80px;
+    width: 80px;
+    font-size: 55px;
+    text-decoration: none;
+    padding: 5px;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    background-color: blueviolet;
+}
